@@ -1,0 +1,42 @@
+div {
+    height: 300px;
+    width:500px;
+    border: 2px solid cornflowerblue;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 2rem;
+    animation: divanimate 3s ease-in 0.2s  infinite alternate ;
+}
+
+@keyframes animate {
+    from{
+        width: 300px;
+        background-color: cadetblue;
+        font-size: 2rem;
+    }
+    to{
+        width: 500px;
+        background-color:violet;
+        font-size: 3rem;
+    }
+
+}
+
+@keyframes divanimate {
+    0% {
+        width: 300px;
+        background-color: cadetblue;
+        font-size: 2rem;
+    }
+    50% {
+        width: 150px;
+        background-color: bisque;
+        font-size: 4rem;
+    }
+
+    100% {
+        width: 500px;
+        background-color:violet;
+        font-size: 3rem;
+    }
+}

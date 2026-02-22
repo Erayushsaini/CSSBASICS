@@ -1,0 +1,26 @@
+#shadow {
+    height: 60px;
+    width: 200px;
+    background-color: burlywood;
+    text-align: center;
+    margin:0 auto;
+    color:brown;
+    box-shadow: 4px 4px 20px black;
+    padding-top:20px;
+}
+
+#img {
+    font-family:arial;
+    height: 400px;
+    width: 800px;
+    background-color: burlywood;
+    margin:50px 10px 50px 350px;
+    color:gainsboro;
+    text-align: center;
+    font-size: 50px;
+    padding-top:50px;
+    background-image: url(image.avif);
+    background-size: contain;
+    box-shadow: 4px 4px 20px black;
+
+}
